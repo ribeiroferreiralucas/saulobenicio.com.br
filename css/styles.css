@@ -165,10 +165,10 @@ strong {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #fbe006;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
-	color: #fff;
+	background-color: #fbe006;
+	color: #4d207a;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -176,7 +176,7 @@ strong {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #14bf98;
+	color: #fbe006;
 	text-decoration: none;
 }
 
@@ -670,7 +670,7 @@ input[type='checkbox'] {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 	font: 700 2.25rem/1.5rem "Montserrat", sans-serif;
-	color: #fff;
+	color: #fbe006;
 	text-decoration: none;
 }
 
@@ -1885,6 +1885,7 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+		color: #fbe006;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
@@ -1899,11 +1900,11 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
-		color: #fff;
+		color: #fbe006;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #fff;
+		color: #fbe006;
 	}
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
@@ -2167,6 +2168,42 @@ a:hover.back-to-top {
 		color: teal;
 	}
 	.cards-2 .fa-stack:hover .fa-stack-1x {
+		color: #4d207a;
+	}
+
+	.text-container .fa-stack {
+		margin-right: 0.25rem;
+		margin-bottom: 0.75rem;
+		margin-left: 0.125rem;
+		width: 3.25rem;
+		height: 3.25rem;
+		text-align: initial;
+	}
+	
+	.text-container .fa-stack .hexagon {
+		position: absolute;
+		width: 3.25rem;
+		height: 3.25rem;
+		background: url('../images/hexagon-green.svg') center center no-repeat;
+		background-size: 3.25rem 3.25rem;
+		transition: all 0.2s ease;
+	}
+	
+	.text-container .fa-stack:hover .hexagon {
+		background: url('../images/hexagon-white.svg') center center no-repeat;
+		background-size: 3.25rem 3.25rem;
+	}
+	
+	.text-container .fa-stack-1x {
+		font-size: 1.5rem;
+		line-height: 3.25rem;
+		color: #4d207a;
+		transition: all 0.2s ease;
+	}
+	.text-container .fa-stack a {
+		color: teal;
+	}
+	.text-container .fa-stack:hover .fa-stack-1x {
 		color: #4d207a;
 	}
 	/* end of services */
