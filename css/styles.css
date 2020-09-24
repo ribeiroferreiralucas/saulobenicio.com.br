@@ -2545,6 +2545,7 @@ a:hover.back-to-top {
 /*     22. Colors     */
 /*****************************/	
 
+/* Color 1 */
 .color-1 {
 	background-color: var(--psol-purple);
 	color: var(--psol-yellow);
@@ -2566,6 +2567,7 @@ a:hover.back-to-top {
 	border-color: var(--psol-yellow);
 	color: var(--psol-purple);
 }
+
 .color-1 .btn-solid-lg:hover
 {
 	background-color: var(--psol-purple);
@@ -2586,8 +2588,48 @@ a:hover.back-to-top {
 
 .color-1 .list-unstyled .fas
 {
-	color: var(--psol-purple-light) !important;
-}	
+	color: var(--psol-yellow-light) !important;
+}
+
+.color-1 .form-control-submit-button
+{
+	border: 0.125rem solid var(--psol-yellow);
+	background-color: var(--psol-yellow);
+	color: var(--psol-purple);
+}
+.color-1 .form-control-submit-button:hover
+{
+	border: 0.125rem solid var(--psol-yellow);
+	background-color: transparent;
+	color: var(--psol-yellow);
+}
+
+.color-1 form .list-unstyled li {
+	color: var(--psol-yellow);
+}
+
+.color-1 #cmsgSubmit.h3.text-center{
+	color: var(--psol-yellow);	
+}
+
+.color-1 .fa-stack .fa-stack-2x {
+	background-color: var(--psol-yellow);	
+	border: 0.125rem solid var(--psol-yellow);
+	height: 100%;
+	border-radius: 0.25rem;
+	transition: all 0.2s;
+}
+
+.color-1 .fa-stack:hover .fa-stack-2x {
+	background-color: var(--psol-purple);
+}
+.color-1 .fa-stack:hover .fa-stack-1x {
+	color: var(--psol-yellow);
+}
+.color-1 .fa-stack-1x
+{
+	color: var(--psol-purple);
+}
 
 /* COLOR 2 */
 .color-2 {
@@ -2634,3 +2676,42 @@ a:hover.back-to-top {
 {
 	color: var(--psol-yellow-light) !important;
 }	
+
+.color-2 .form-control-submit-button
+{
+	border: 0.125rem solid var(--psol-purple);
+	background-color: var(--psol-purple);
+	color: var(--psol-yellow);
+}
+.color-2 .form-control-submit-button:hover
+{
+	border: 0.125rem solid var(--psol-purple);
+	background-color: transparent;
+	color: var(--psol-purple);
+}
+
+.color-2 form .list-unstyled li {
+	color: var(--psol-purple);
+}
+
+.color-2 #cmsgSubmit.h3.text-center{
+	color: var(--psol-purple);	
+}
+
+a.btn-solid-lg {
+    text-decoration: none;
+}
+
+a.back-to-top {
+	background: var(--psol-purple) url("../images/up-arrow.png") no-repeat center 47%;
+	background-size: 1.125rem 1.125rem;
+	text-indent: -9999px;
+	border: 0.125rem solid var(--psol-yellow);
+}
+
+a:hover.back-to-top {
+	background: var(--psol-yellow) url("../images/up-arrow.png") no-repeat center 47%;
+	background-size: 1.125rem 1.125rem;
+	text-indent: -9999px;
+	border: 0.125rem solid var(--psol-purple);
+}

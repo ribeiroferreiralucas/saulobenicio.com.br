@@ -174,7 +174,7 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             lformError();
-            lsubmitMSG(false, "Please fill all fields!");
+            lsubmitMSG(false, "Preencha todos os campos!");
         } else {
             // everything looks good!
             event.preventDefault();
@@ -232,7 +232,7 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             cformError();
-            csubmitMSG(false, "Please fill all fields!");
+            csubmitMSG(false, "Preencha todos os campos!");
         } else {
             // everything looks good!
             event.preventDefault();
