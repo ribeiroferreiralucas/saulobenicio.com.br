@@ -55,6 +55,15 @@ Colors:
 	--psol-yellow-light:#ddfb1883;
 }
 
+@font-face{
+	font-family: Beyond The Mountains;
+	src: url(../webfonts/beyond_the_mountains.ttf);
+}
+@font-face{
+	font-family: Sandman;
+	src: url(../webfonts/sandman-fill.otf);
+}
+
 body,
 html {
     width: 100%;
@@ -676,9 +685,9 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-text {
-	margin-top: 0.25rem;
+	margin-top: 0.7rem;
 	margin-bottom: 0.25rem;
-	font: 700 2.25rem/1.5rem "Montserrat", sans-serif;
+	font: 700 2.25rem/1.5rem "Beyond The Mountains";
 	color: var(--psol-yellow);
 	text-decoration: none;
 }
@@ -2698,6 +2707,8 @@ a:hover.back-to-top {
 	color: var(--psol-purple);	
 }
 
+/* Others Customizations */
+
 a.btn-solid-lg {
     text-decoration: none;
 }
@@ -2714,4 +2725,8 @@ a:hover.back-to-top {
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 	border: 0.125rem solid var(--psol-purple);
+}
+
+.header h1{
+	font: 700 4rem/4rem "Beyond The Mountains";
 }
