@@ -2730,3 +2730,14 @@ a:hover.back-to-top {
 .header h1{
 	font: 700 4rem/4rem "Beyond The Mountains";
 }
+
+.basic-1.tabs .tabs-container {
+    max-width: 88%;
+    margin-left: 0rem;
+	padding-top: 0rem;
+	padding-bottom: 0;
+}
+
+.basic-1.tabs {
+	height: auto;
+}
