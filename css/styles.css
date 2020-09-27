@@ -47,12 +47,12 @@ Colors:
 /*     01. General Styles     */
 /******************************/
 :root {
-	--psol-purple:#662482;
-	--psol-purple-strong:#521c69;
-	--psol-purple-light:#66248271;
-	--psol-yellow:#dbfb18;
-	--psol-yellow-strong:#afc713;
-	--psol-yellow-light:#ddfb1883;
+	--psol-purple:#5e5bcd;
+	--psol-purple-strong:#4845a7;
+	--psol-purple-light:#5e5bcd71;
+	--psol-yellow:#d2fd0f;
+	--psol-yellow-strong:#afd30c;
+	--psol-yellow-light:#d2fd0f83;
 }
 
 @font-face{
