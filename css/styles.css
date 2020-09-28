@@ -2705,6 +2705,30 @@ a:hover.back-to-top {
 	color: var(--psol-purple);	
 }
 
+.color-2 .fa-stack-1x
+{
+	color: var(--psol-yellow);
+}
+.color-2 .fa-stack-1x:hover
+{
+	color: var(--psol-purple);
+}
+.color-2 a .fa-stack-2x
+{
+	color: var(--psol-purple);
+	background-color: var(--psol-purple);
+	height: 100%;
+	border: 0.125rem solid var(--psol-purple);
+	border-radius: 0.25rem;
+	transition: all 0.2s;
+}
+.color-2 a:hover .fa-stack-2x
+{
+	background-color: var(--psol-yellow);
+	height: 100%;
+	border: 0.125rem solid var(--psol-purple);
+	border-radius: 0.25rem;
+}
 /* Others Customizations */
 
 a.btn-solid-lg {
