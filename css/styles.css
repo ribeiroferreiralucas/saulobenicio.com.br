@@ -687,9 +687,10 @@ input[type='checkbox'] {
 .navbar-custom .navbar-brand.logo-text {
 	margin-top: 0.7rem;
 	margin-bottom: 0.25rem;
-	font: 700 2.25rem/1.5rem "Beyond The Mountains";
+	font: 700 2rem/1.5rem "Beyond The Mountains";
 	color: var(--psol-yellow);
 	text-decoration: none;
+	font-weight: normal;
 }
 
 .navbar-custom .navbar-nav {
@@ -699,7 +700,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #fff;
+	color: var(--psol-yellow);
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -796,14 +797,16 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/cover.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/saulo-cover.png') center center no-repeat;
 	background-size: cover;
 }
 
 .header .header-content {
-	padding-top: 8rem;
-	padding-bottom: 2.125rem;
+	/*! padding-top: 17rem; */
+	/*! padding-bottom: 2.125rem; */
 	text-align: center;
+	height: 16rem;
+	margin-top: 45px;
 }
 
 .header .text-container {
@@ -1952,8 +1955,10 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 13rem;
-		padding-bottom: 7.5rem;
+		/*! padding-top: 13rem; */
+		/*! padding-bottom: 7.5rem; */
+		margin-top: 0px;
+		height: 22rem;
 	}
 
 	.header h1 {
@@ -2102,8 +2107,9 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 14rem;
-		padding-bottom: 15rem;
+		/*! padding-top: 14rem; */
+		/*! padding-bottom: 15rem; */
+		height: 26rem;
 	}
 
 	.header .text-container {
@@ -2380,8 +2386,10 @@ a:hover.back-to-top {
 	
 	/* Header */
 	.header .header-content {
-		padding-top: 14.75rem;
-		padding-bottom: 17.5rem;
+		/*! padding-top: 14.75rem; */
+		/*! padding-bottom: 20.5rem; */
+		/*! height: 551px; */
+		height: 43rem;
 	}
 	/* end of header */
 
@@ -2527,6 +2535,38 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+/* Min-width width 1200px */
+@media (min-width: 2000px) {
+	/* Header */
+	.header .header-content {
+		/*! padding-top: 14.75rem; */
+		/*! padding-bottom: 20.5rem; */
+		/*! height: 551px; */
+		height: 60rem;
+	}
+}
+
+
+/* Min-width width 1200px */
+@media (min-width: 3000px) {
+	/* Header */
+	.header .header-content {
+		/*! padding-top: 14.75rem; */
+		/*! padding-bottom: 20.5rem; */
+		/*! height: 551px; */
+		height: 85rem;
+	}
+}
+/* Min-width width 1200px */
+@media (max-width: 550px) {
+	/* Header */
+	.header .header-content {
+		/*! padding-top: 14.75rem; */
+		/*! padding-bottom: 20.5rem; */
+		/*! height: 551px; */
+		height: 12rem;
+	}
+}
 
 
 /* Min-width width 1600px */
@@ -2750,7 +2790,7 @@ a:hover.back-to-top {
 }
 
 .header h1{
-	font: 700 4rem/4rem "Beyond The Mountains";
+	font: 700 4rem/5.5rem "Beyond The Mountains";
 }
 
 .basic-1.tabs .tabs-container {
