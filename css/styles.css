@@ -2440,13 +2440,13 @@ a:hover.back-to-top {
 
 	/* Details 2 */
 	.tabs {
-		height: 36rem;
+		height: 40rem;
 	}
 	.tabs .tabs-container {
 		/*! max-width: 28rem; */
 		/*! margin-left: 5rem; */
 		/*! margin-right: 5rem; */
-		padding-top: 2rem;
+		/*! padding-top: 2rem; */
 	}
 
 	.tabs #tab-2 .media-wrapper.first {
