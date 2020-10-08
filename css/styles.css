@@ -1093,7 +1093,7 @@ input[type='checkbox'] {
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 2rem;
-	padding-bottom: 5.75rem;
+	padding-bottom: 2rem;
 }
 
 .tabs .nav-tabs {
@@ -1197,7 +1197,7 @@ input[type='checkbox'] {
 }
 
 .tabs .area-2 {
-	height: 27rem;
+	height: auto;
 }
 
 
@@ -2262,7 +2262,7 @@ a:hover.back-to-top {
 
 	/* Details 2 */
 	.tabs {
-		height: 36.125rem;
+		height: 46rem;
 	}
 
 	.tabs .area-1 {
@@ -2274,7 +2274,7 @@ a:hover.back-to-top {
 
 	.tabs .area-2 {
 		width: 49%;
-		height: 100%;
+		height: auto;
 		display: inline-block;
 	}
 
@@ -2282,7 +2282,7 @@ a:hover.back-to-top {
 		max-width: 88%;
 		margin-left: 2rem;
 		padding-top: 6.75rem;
-		padding-bottom: 0;
+		padding-bottom: 6.75rem;
 	}
 
 	.tabs .nav-tabs {
@@ -2439,10 +2439,14 @@ a:hover.back-to-top {
 
 
 	/* Details 2 */
+	.tabs {
+		height: 36rem;
+	}
 	.tabs .tabs-container {
 		/*! max-width: 28rem; */
-		margin-left: 5rem;
-		margin-right: auto;
+		/*! margin-left: 5rem; */
+		/*! margin-right: 5rem; */
+		padding-top: 2rem;
 	}
 
 	.tabs #tab-2 .media-wrapper.first {
@@ -2543,6 +2547,10 @@ a:hover.back-to-top {
 		/*! padding-bottom: 20.5rem; */
 		/*! height: 551px; */
 		height: 60rem;
+	}
+	
+	.tabs {
+		height: 26rem;
 	}
 }
 
